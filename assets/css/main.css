@@ -3210,6 +3210,26 @@ mark, .mark {
     position: relative;
     text-decoration: none;
 }
+.footer {
+    
+    background:#222222;
+    color: #fbfbfb;
+    padding: 2rem;
+    li {
+      line-height: 1.5;
+    }
+    
+    a {
+      color: #0036ca;
+    }
+    hr {
+      max-width: $body-width;
+      border: 0;
+      height: 1px;
+      background: neutral($primary,2),
+    }
+    
+  }
 
 @media (min-width: 1201px) {
     .raising-nav {
