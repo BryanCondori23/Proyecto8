@@ -217,6 +217,11 @@ img {
     white-space: nowrap;
 }
 
+.para p{
+    font-size:18px;
+}
+
+
 @media (max-width: 991px) {
     .table-responsive-02 table, .table-responsive-02 thead,
     .table-responsive-02 tbody, .table-responsive-02 th, .table-responsive-02 td,
@@ -1684,7 +1689,7 @@ mark, .mark {
 }
 
 .services__title {
-    font-size: 20px;
+    font-size: 21px;
     text-transform: uppercase;
     margin: 20px 0 7px;
 }
@@ -1699,6 +1704,7 @@ mark, .mark {
 
 .services__desc {
     margin-bottom: 30px;
+    font-size: 17px;
 }
 
 
@@ -2426,10 +2432,13 @@ mark, .mark {
 }
 
 .sec-title__title {
-    font-size: 14px;
+    font-size: 17px;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 20px;
+}
+.fines{
+    font-size:16px;
 }
 
 .sec-title__title span {
@@ -2444,7 +2453,7 @@ mark, .mark {
 }
 
 .sec-title__lg-title .sec-title__title {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .md-skin-dark .sec-title__title {
