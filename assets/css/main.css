@@ -2510,7 +2510,12 @@ mark, .mark {
 .widget-contact__text {
     display: inline-block;
 }
-
+.widget-contact__item p{
+    font-size:16px;
+}
+.widget-contact__item span{
+    font-size: 18px;
+}
 
 /* 21. widget_file
 --------------------------------------------------------------------------------*/
